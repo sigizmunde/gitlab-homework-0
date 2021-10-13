@@ -1,0 +1,17 @@
+body {
+  background-color: azure;
+  color: rgb(27, 5, 46);
+}
+
+.chapter {
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 2px;
+  top: calc(var(--page) * 1px);
+  --hue: calc(var(--page) * 255 / 476);
+  background-color: hsl(var(--hue), 50%, 75%);
+}
+
+.container {
+}
